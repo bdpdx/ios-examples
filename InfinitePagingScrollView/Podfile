@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+use_frameworks!
+
+def shared_pods
+	pod 'SnapKit', '~> 5.0.0'
+end
+
+target 'InfinitePagingScrollView' do
+	shared_pods
+end

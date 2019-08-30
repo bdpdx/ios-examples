@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EE970325811A84F6FBF9362 /* Pods_InfinitePagingScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE089FA54C36A128C6AD6B2A /* Pods_InfinitePagingScrollView.framework */; };
+		D368F13423192B8E0002A2EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D368F13323192B8E0002A2EA /* AppDelegate.swift */; };
+		D368F13623192B8E0002A2EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D368F13523192B8E0002A2EA /* ViewController.swift */; };
+		D368F13923192B8E0002A2EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D368F13723192B8E0002A2EA /* Main.storyboard */; };
+		D368F13B23192B8F0002A2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D368F13A23192B8F0002A2EA /* Assets.xcassets */; };
+		D368F13E23192B8F0002A2EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D368F13C23192B8F0002A2EA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE089FA54C36A128C6AD6B2A /* Pods_InfinitePagingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfinitePagingScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACD28BABC6FBF7A5EFA59F1 /* Pods-InfinitePagingScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitePagingScrollView.debug.xcconfig"; path = "Target Support Files/Pods-InfinitePagingScrollView/Pods-InfinitePagingScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		D368F13023192B8E0002A2EA /* InfinitePagingScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePagingScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D368F13323192B8E0002A2EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D368F13523192B8E0002A2EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D368F13823192B8E0002A2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D368F13A23192B8F0002A2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D368F13D23192B8F0002A2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D368F13F23192B900002A2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22A2D80681B62810885C3E3 /* Pods-InfinitePagingScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfinitePagingScrollView.release.xcconfig"; path = "Target Support Files/Pods-InfinitePagingScrollView/Pods-InfinitePagingScrollView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D368F12D23192B8E0002A2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE970325811A84F6FBF9362 /* Pods_InfinitePagingScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBD125612669FC2D7E6F218C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE089FA54C36A128C6AD6B2A /* Pods_InfinitePagingScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D368F12723192B8E0002A2EA = {
+			isa = PBXGroup;
+			children = (
+				D368F13223192B8E0002A2EA /* InfinitePagingScrollView */,
+				D368F13123192B8E0002A2EA /* Products */,
+				EE7AF052CDF4289B83FBFE43 /* Pods */,
+				BBD125612669FC2D7E6F218C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D368F13123192B8E0002A2EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D368F13023192B8E0002A2EA /* InfinitePagingScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D368F13223192B8E0002A2EA /* InfinitePagingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D368F13323192B8E0002A2EA /* AppDelegate.swift */,
+				D368F13523192B8E0002A2EA /* ViewController.swift */,
+				D368F13723192B8E0002A2EA /* Main.storyboard */,
+				D368F13A23192B8F0002A2EA /* Assets.xcassets */,
+				D368F13C23192B8F0002A2EA /* LaunchScreen.storyboard */,
+				D368F13F23192B900002A2EA /* Info.plist */,
+			);
+			path = InfinitePagingScrollView;
+			sourceTree = "<group>";
+		};
+		EE7AF052CDF4289B83FBFE43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BACD28BABC6FBF7A5EFA59F1 /* Pods-InfinitePagingScrollView.debug.xcconfig */,
+				F22A2D80681B62810885C3E3 /* Pods-InfinitePagingScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D368F12F23192B8E0002A2EA /* InfinitePagingScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D368F14223192B900002A2EA /* Build configuration list for PBXNativeTarget "InfinitePagingScrollView" */;
+			buildPhases = (
+				7CD86DA78D7AA7AC571DACA6 /* [CP] Check Pods Manifest.lock */,
+				D368F12C23192B8E0002A2EA /* Sources */,
+				D368F12D23192B8E0002A2EA /* Frameworks */,
+				D368F12E23192B8E0002A2EA /* Resources */,
+				B28B4503CC557BFEAF6264D1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinitePagingScrollView;
+			productName = InfinitePagingScrollView;
+			productReference = D368F13023192B8E0002A2EA /* InfinitePagingScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D368F12823192B8E0002A2EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Balance Software";
+				TargetAttributes = {
+					D368F12F23192B8E0002A2EA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D368F12B23192B8E0002A2EA /* Build configuration list for PBXProject "InfinitePagingScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D368F12723192B8E0002A2EA;
+			productRefGroup = D368F13123192B8E0002A2EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D368F12F23192B8E0002A2EA /* InfinitePagingScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D368F12E23192B8E0002A2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D368F13E23192B8F0002A2EA /* LaunchScreen.storyboard in Resources */,
+				D368F13B23192B8F0002A2EA /* Assets.xcassets in Resources */,
+				D368F13923192B8E0002A2EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CD86DA78D7AA7AC571DACA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfinitePagingScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B28B4503CC557BFEAF6264D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfinitePagingScrollView/Pods-InfinitePagingScrollView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfinitePagingScrollView/Pods-InfinitePagingScrollView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfinitePagingScrollView/Pods-InfinitePagingScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D368F12C23192B8E0002A2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D368F13623192B8E0002A2EA /* ViewController.swift in Sources */,
+				D368F13423192B8E0002A2EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D368F13723192B8E0002A2EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D368F13823192B8E0002A2EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D368F13C23192B8F0002A2EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D368F13D23192B8F0002A2EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D368F14023192B900002A2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D368F14123192B900002A2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D368F14323192B900002A2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BACD28BABC6FBF7A5EFA59F1 /* Pods-InfinitePagingScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQRYCDNYE7;
+				INFOPLIST_FILE = InfinitePagingScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balance-software.InfinitePagingScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D368F14423192B900002A2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22A2D80681B62810885C3E3 /* Pods-InfinitePagingScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQRYCDNYE7;
+				INFOPLIST_FILE = InfinitePagingScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balance-software.InfinitePagingScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D368F12B23192B8E0002A2EA /* Build configuration list for PBXProject "InfinitePagingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D368F14023192B900002A2EA /* Debug */,
+				D368F14123192B900002A2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D368F14223192B900002A2EA /* Build configuration list for PBXNativeTarget "InfinitePagingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D368F14323192B900002A2EA /* Debug */,
+				D368F14423192B900002A2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D368F12823192B8E0002A2EA /* Project object */;
+}
