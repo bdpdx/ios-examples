@@ -33,16 +33,20 @@ class InfiniteScrollView: UIScrollView {
     func recenterIfNecessary() {
         let currentOffset = contentOffset
         let contentWidth = contentSize.width
-        let centerOffsetX = (contentWidth - bounds.size.width) / 2
+        let boundsWidth = bounds.width
+        let centerOffsetX = (contentWidth - boundsWidth) / 2
         let distanceFromCenter = abs(currentOffset.x - centerOffsetX)
 
         guard distanceFromCenter > contentWidth / 4 else { return }
 
         contentOffset = CGPoint(x: centerOffsetX, y: currentOffset.y)
 
+        let currentOffsetX = currentOffset.x
+        let deltaX = centerOffsetX - currentOffsetX
+
         for label in visibleLabels {
             var center = labelContainerView.convert(label.center, to: self)
-            center.x += centerOffsetX - currentOffset.x
+            center.x += deltaX
             label.center = convert(center, to: labelContainerView)
         }
     }
